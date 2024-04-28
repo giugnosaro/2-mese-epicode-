@@ -1,0 +1,362 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  background-color: #ffc017;
+  padding: 2% 8%;
+  border-bottom: 1px solid;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+
+.navbar.scrolled {
+  background-color: white;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+.list {
+  color: black;
+  text-decoration: none;
+}
+
+.diversa {
+  background-color: black;
+  color: white;
+  font-size: 21px;
+  padding: 9px;
+  border-radius: 37px;
+}
+.scrolled .diversa {
+  background-color: green;
+}
+#padre {
+  display: flex;
+  background-color: #ffc017;
+}
+
+.figlio1 {
+  padding: 11em;
+}
+
+.figlio2 {
+  margin-left: auto;
+}
+
+.figlio1 h1 {
+  font-size: 5em;
+  margin-left: -0.7em;
+  margin-bottom: 0.5em;
+}
+
+.figlio1 h3 {
+  margin-left: -3.4em;
+}
+
+.figlio1 a {
+  position: relative;
+  top: 47px;
+  right: 57px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 29px;
+  border-radius: 43px;
+  font-size: 20px;
+}
+
+#padreMain {
+  margin: 1em 8em 0em 6em;
+}
+
+.figlioMain1 {
+  display: flex;
+  align-items: center;
+  margin: 3em 8em 0em 6em;
+}
+
+.container,
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 47px;
+  margin-left: 2em;
+}
+
+.container1 {
+  border-bottom: 1px solid black;
+}
+
+.article {
+  display: flex;
+  width: calc(33.333% - 20px);
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.article img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.fotoSpostata {
+  position: relative;
+  top: 3em;
+}
+
+.article h5,
+.article h4 {
+  text-shadow: 1px 1px 2px black;
+}
+.numero {
+  flex-shrink: 0;
+  width: 37px;
+  text-align: center;
+  color: #8e9491;
+  font-size: 2em;
+}
+
+.text-content {
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 3em;
+}
+
+.text-content h4,
+.text-content p {
+  margin-top: 1em;
+}
+
+.text-content p {
+  color: #8e9491;
+}
+.article .testoLungo {
+  font-size: 0.88em;
+}
+
+.ultimo {
+  display: flex;
+  gap: 20px;
+  padding: 31px 0px 0px 18px;
+  margin-left: 2em;
+}
+
+.ultimo > .article {
+  width: 32em;
+}
+
+.text-content .stella {
+  position: absolute;
+}
+
+.text-content span {
+  background-color: #f2f3f2;
+  border-radius: 27%;
+  padding: 6px;
+}
+
+.text-content .segnaLibro {
+  position: relative;
+  left: 28em;
+  bottom: 28px;
+}
+
+#fotoGrande img {
+  width: 167px;
+  height: 144px;
+  margin-left: 1em;
+}
+
+#fotoGrande span {
+  position: relative;
+  top: 25px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 32%;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: flex-start;
+  margin-left: 18em;
+  position: relative;
+  top: 3em;
+}
+
+.para {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px solid;
+}
+
+.paragrafiUguali {
+  border: 1px solid;
+  padding: 2%;
+  margin: 1em;
+}
+
+.lista ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.lista {
+  position: relative;
+  top: 3em;
+}
+
+.listaDue {
+  top: 1em;
+  position: relative;
+}
