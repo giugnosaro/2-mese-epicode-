@@ -1,0 +1,26 @@
+html,
+body{
+    background-color: blueviolet;
+}
+
+form {
+
+    width: 40%;
+    margin-top: 5em;
+    margin-left: 25%;
+}
+
+#btn {
+    margin-top: 2em;
+    margin-left: 40%;
+}
+
+#testo {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#timer {
+    margin-top: 2em;
+    margin-left: 38%;
+}
